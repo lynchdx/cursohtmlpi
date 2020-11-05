@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	
+<style>
+		
+/*para poner color degradao*/
+
+
+		#principal{
+		width:500px;
+		/*background-color: #00F;*/
+
+		text-align: center;
+		margin: 15px auto;
+		padding: 15px;
+		border: 3px solid #F00;
+		border-radius: 20px 5px 15px 40px;
+		box-shadow:#999 5px 5px 5px;
+
+		
+		background:-moz-linear-gradient(bottom, #00F, #3FF);
+		background:-webkit-linear-gradient(bottom, #00F, #3FF);
+		background:-ms-linear-gradient(bottom, #00F, #3FF);
+		background:-o-linear-gradient(bottom, #00F, #3FF);
+
+		/*
+
+		Línea puntiaguda de block
+			outline:2px dashed #00F;
+
+		Alejar el borde
+			outline-offset: 15px;	
+		*/
+
+		/*Aumentar o disminuir tamaño (scale)
+		-o-transform:scale(0.5);
+		*/
+
+
+		/*Intertir elemento
+		-o-transform:scale(1,-1);
+		*/
+
+		/*Rotar elemento
+		-o-transform:rotate(50deg);
+		*/
+
+		/*transformar la perspectiva
+		-o-transform:rkew(30deg);
+		*/
+
+		}
+		
+
+		@font-face {
+			font-family: 'MiPropiaFuente';
+			src: url('BAUHS93.ttf');
+		}
+
+
+
+		#titulo{
+			font: bold 36px 'MiPropiaFuente';
+			text-shadow:#0F0 3px 3px 5px; 
+
+			/*Transparencia rgba, 3 num, y la tonalidad de transparencia*/
+			color:rgba(0,0,0,0.2);
+
+
+
+		}
+
+
+
+</style>
+
+
+<header id="principal">
+	<span id="titulo">Estilo CSS3</span>
+
+
+</header>
+
+</body>
+</html>

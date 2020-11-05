@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+
+#titulo{
+
+	background-color: #D1FAAC;
+}
+
+
+#navprincipal{
+
+	background-color: #C8DADE;
+}
+
+#barralateral{
+
+	background-color: #C99CF5;
+	float: left; /*rompe el block, haciendo que float, use solo lo escrito, y left, ponerlo a la izquierda*/	
+	height: 1080px; /*significa alto, y tomará de alto todo lo que uno quiera*/
+
+
+}
+
+#pieprincipal{
+
+	background-color: #DE9983;
+	clear: both; /*Convierte en un float, y se independeiza para no ser tapado por los demás blocks*/
+	margin-top : 10px;
+}
+
+#contenidoprincipal{
+
+	background-color: #FFF596;
+	margin-left: 200px; /*Margin leff, mueve todo el margen, la cantidad que queramos.*/
+	padding-left: 15px;
+	padding-top: 15px;
+	
+}
+
+/*display pued ser block (como está inicialmente en bloquees, o inline, uno al lado de otro*/
+li {
+
+	background-color: #F5E6A9;
+	display: inline;
+}

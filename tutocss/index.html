@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Tutorial con css</title>
+
+	<link rel="stylesheet" href="estilos.css"/>
+
+</head>
+<body>
+	
+	<!--Encabezado-->
+	<header id="titulo">
+		<h1>Título de mi página web</h1>
+
+	</header>
+
+	<!--Barra de navegación-->
+	<nav id="navprincipal"> 
+		
+		<!--ul es lista desordenada, salen puntitos-->
+		<ul>
+			<li>Quienes Somos</li>
+			<li>Nuestros Productos</li>
+			<li>Contáctanos</li>
+			<li>Precios</li>
+		</ul>
+
+	</nav>
+
+	<!--Barra lateral, usada para vínculos-->
+	<aside id="barralateral">
+		<blockquote>Primer elemento</blockquote>
+		<blockquote>Segundo elemento</blockquote>
+		<blockquote>Tercer elemento</blockquote>
+
+	</aside>
+
+	<!--Contenido principal-->
+	<section id="contenidoprincipal">
+
+		<!--Los articles sirven para que el navegador se entere de que es un articulo, pero no
+		 se ve ningún cambio a nivel visual-->
+		<article>
+
+			<header>	
+
+
+				<!--hgroup para agrupar subtitulos y titulos-->	
+				<hgroup>
+				<h2>Título de la noticia 1</h2>
+				<h3>subtitulo de la noticia 1</h3>
+				</hgroup>
+			</header>
+
+			<!--Etiqueta figure, para insertar; imagenes, videos, flash, etc..-->
+			<figure>
+				
+				<img src="../imagenes/paisaje.jpg"/>
+
+				<!--Comentarios de imagen-->
+				<figcaption>Paisaje invernal</figcaption>
+
+			</figure>
+
+
+
+			<p><mark>Nocitia 1</mark></p>
+			<p>Seguimos hablando de la <em>noticia 1</em></p>
+			<p>Terminamos <strong>Nocitia 1</strong></p>
+
+			<footer>
+				<p>Comentarios de usuario noticia 1</p>
+			</footer>
+
+		</article>
+
+
+		<article>
+
+			<header>
+
+			<hgroup>
+				<h2>Título de la noticia 2</h2>
+				<h3>subtitulo de la noticia 2</h3>
+			</hgroup>
+			</header>
+
+
+			<p><cite>Scott Pilgrims vs the world</cite></p>
+			<p>Una pelicula de universal studios llamada <cite>Scott Pilgrims vs the world</cite></p>
+			<p>Terminamos Nocitia 2</p>	
+
+			<footer>
+				<p>Comentarios de usuario noticia 2</p>
+			</footer>
+
+		</article>
+
+		<article>
+
+			<header>
+			<hgroup>
+				<h2>Título de la noticia 3</h2>
+				<h3>subtitulo de la noticia 3</h3>
+				<time datetime="2020/11/03" pubdate>Noticia publicada el día 03/11/2020</time>
+			</hgroup>
+
+			</header>
+			
+
+			<p>Nocitia 3</p>
+			<p>Seguimos hablando de la noticia 3</p>
+			<p>Terminamos Nocitia 3</p>	
+			
+
+
+
+			<footer>
+				<p>Comentarios de usuario noticia 3</p>
+			</footer>
+
+		</article>
+		
+	</section>
+
+
+	<footer id="pieprincipal">
+		
+		<small>Derechos reservados</small> <address>Teléfono +5692315464</address>
+	</footer>
+
+</body>
+</html>
